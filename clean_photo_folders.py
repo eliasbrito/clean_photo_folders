@@ -11,7 +11,7 @@ def hash_arquivo(caminho_arquivo, chunk_size=8192):
             hash_sha.update(chunk)
     return hash_sha.hexdigest()
 
-
+# teste de push com perfil EliasPessoal
 def processar_pasta(pasta_origem, pasta_destino=None):
     """
     Copia/move arquivos de pasta_origem para pasta_destino (se informado),
